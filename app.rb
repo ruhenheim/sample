@@ -20,3 +20,8 @@ post '/' do
 
   erb :booklist
 end
+
+get '/books' do
+  text: "hello world!"
+end
+
